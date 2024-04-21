@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Merubah warna teks menjadi merah pada kolom nama mahasiswa dan mata kuliah di kolom keterangan */
+.red {
+    color: red;
+}
+
+/* Merubah warna teks menjadi hitam untuk teks 'Mengambil Mata Kuliah' dan SKS di kolom keterangan */
+td:nth-child(4) {
+    color: black;
+}
